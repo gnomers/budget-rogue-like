@@ -10,8 +10,8 @@ public class Playercontroller : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-    public float horizontalSpeed = 2.0F;
-    public float verticalSpeed = 2.0F;
+    public float horizontalSpeed = 0F;
+    public float verticalSpeed = 0F;
 	public float movmentSpeed = 3F;
 
         public Rigidbody rb;
