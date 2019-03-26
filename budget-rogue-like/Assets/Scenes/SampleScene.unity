@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
@@ -800,3 +801,5 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> dbc8a783f4c1b2f660c77becf9364b7f5a225ada
+=======
+>>>>>>> parent of 02dc1c1... xp
