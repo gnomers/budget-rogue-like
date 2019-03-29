@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 21fa40bcb105bab43a055b9f0895c0d9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: The Mad Lad_0
+    21300002: The Mad Lad_1
+    21300004: The Mad Lad_2
+    21300006: The Mad Lad_3
+    21300008: The Mad Lad_4
+    21300010: The Mad Lad_5
+    21300012: The Mad Lad_6
+    21300014: The Mad Lad_7
+    21300016: The Mad Lad_8
+    21300018: The Mad Lad_9
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 87, z: 35, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The Mad Lad_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 368
+        width: 104
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5364219, y: 0.10815035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898a4233eccc6c74388d6aba1fb7e1d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Mad Lad_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 284
+        width: 173
+        height: 204
+      alignment: 9
+      pivot: {x: 0.50729847, y: 0.04817783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd09fbeebc8aaba47ac558a51b182847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Mad Lad_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 88
+        width: 70
+        height: 176
+      alignment: 9
+      pivot: {x: 0.7344877, y: 0.93044066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4478d326b5d8fd3478b96eea3b8caab8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Mad Lad_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 94
+        width: 86
+        height: 159
+      alignment: 9
+      pivot: {x: 0.20636608, y: 0.9049931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91c7591deb462d4e9892fc84bf29e57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Mad Lad_6
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 103
+        width: 53
+        height: 135
+      alignment: 9
+      pivot: {x: 0.45235342, y: 0.9208754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90995b1e2296e364da1a94f959b696d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Mad Lad_8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 104
+        width: 66
+        height: 133
+      alignment: 9
+      pivot: {x: 0.30869317, y: 0.91771084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3473478f71601334ead0ddb6129dcee1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 87bf4db55c6e7af46af0a09b0e8a8ba8
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
