@@ -313,7 +313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 190766104}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -904,6 +904,7 @@ GameObject:
   - component: {fileID: 1231173264}
   - component: {fileID: 1231173265}
   - component: {fileID: 1231173266}
+  - component: {fileID: 1231173267}
   m_Layer: 0
   m_Name: The Mad Lad
   m_TagString: Untagged
@@ -1001,15 +1002,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33b2ba9d728cb8e41bf1bb2965d17dfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 400
+  m_JumpForce: 500
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
-  m_AirControl: 0
+  m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 0
-  m_GroundCheck: {fileID: 0}
-  m_CeilingCheck: {fileID: 0}
+    m_Bits: 4294967295
+  m_GroundCheck: {fileID: 190766104}
+  m_CeilingCheck: {fileID: 1646160770}
   m_CrouchDisableCollider: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
@@ -1021,6 +1022,20 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: CharacterController2D+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1231173267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231173261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21925cf8391f35e4683445bb7b8d8ec9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1231173266}
+  runSpeed: 40
 --- !u!1 &1254418455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,7 +1318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1646160770}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: CeilingCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
