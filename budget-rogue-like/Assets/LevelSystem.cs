@@ -11,7 +11,7 @@ public class LevelSystem : MonoBehaviour            //skapar public klassen Leve
     // Update is called once per frame
     void Update()                                   //kör scriptet och släng allt som kommer tillbacka
     {
-if  (false)                                         //just nu Om inte stämemer kör
+if  (false)                                         //just nu Om inte stämmer kör
         UpdateXp(5);                            
     }
 

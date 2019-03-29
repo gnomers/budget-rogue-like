@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public float Health = 5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -11,8 +12,8 @@ public class PlayerHealth : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void OnTriggerEnter(Collision other)
     {
-        
+        Debug.Log("adljadfalf");
     }
 } 
