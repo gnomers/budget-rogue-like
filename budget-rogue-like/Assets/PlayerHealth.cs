@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     public float Health = 5f;
+    private float timer = 0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -12,8 +13,22 @@ public class PlayerHealth : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnTriggerEnter(Collision other)
+    void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("adljadfalf");
+    
+        if(other.transform.tag == "enemy")
+        {
+            if(timer <= 0) {
+                Debug.Log(other.transform.tag);
+                timer = 1f;
+            }
+        } 
+    }
+    void Update()
+    {
+        if(timer > 0) 
+        {
+            timer -= Time.deltaTime;
+        }
     }
 } 
