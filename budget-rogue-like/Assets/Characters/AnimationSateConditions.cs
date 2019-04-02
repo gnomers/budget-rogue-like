@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class AnimationSateConditions : MonoBehaviour
 {
+private Animator anim;
+
     // Start is called before the first frame update
-    void Start()
-    {
-        
+    void Start() {
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
+    void Update() {
+        if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) {
+            anim.SetBool("idle", false);
+        } else {
+            anim.SetBool("idle", true);
+        }
     }
 }
