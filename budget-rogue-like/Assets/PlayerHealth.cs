@@ -7,6 +7,8 @@ public class PlayerHealth : MonoBehaviour
     public float Health = 5f;
     private float timer = 0f;
     // Start is called before the first frame update
+
+    public Transform SpawnPoint;
     void Start()
     {
         
@@ -20,9 +22,19 @@ public class PlayerHealth : MonoBehaviour
         {
             if(timer <= 0) {
                 Debug.Log(other.transform.tag);
+                Health -= 1;
                 timer = 1f;
+                if (Health <= 0)
+                {
+                    Death(); 
+                } 
             }
         } 
+    }
+    public void Death() 
+    {
+        transform.position = SpawnPoint.transform.position;
+        Health = 5f;
     }
     void Update()
     {
