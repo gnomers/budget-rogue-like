@@ -602,6 +602,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &513121133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 513121134}
+  m_Layer: 0
+  m_Name: Spawnpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &513121134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513121133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.6390657, y: 3.3186476, z: -0.13268463}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &621664676
 GameObject:
   m_ObjectHideFlags: 3
@@ -987,6 +1017,7 @@ GameObject:
   - component: {fileID: 1231173268}
   - component: {fileID: 1231173266}
   - component: {fileID: 1231173267}
+  - component: {fileID: 1231173269}
   m_Layer: 0
   m_Name: The Mad Lad
   m_TagString: Player
@@ -1130,6 +1161,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc2001b4c6da90f428da8680ef083a3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1231173269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231173261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a428f89a011e2cf49b26f056550993e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 5
+  SpawnPoint: {fileID: 513121134}
 --- !u!1 &1254418455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1581,6 +1626,7 @@ GameObject:
   - component: {fileID: 1861333649}
   - component: {fileID: 1861333648}
   - component: {fileID: 1861333647}
+  - component: {fileID: 1861333651}
   m_Layer: 0
   m_Name: Spike Slime
   m_TagString: enemy
@@ -1755,3 +1801,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1861333651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861333646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc7b6f5b6c43f641987aa456522c4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
